@@ -1,0 +1,32 @@
+#arrangeL{
+    position: relative;
+   top:60px;
+    left:30%;
+   border-radius: 2px;
+   color: #fff;
+  
+  
+   margin: 20px;
+  
+   font-size: 18px;
+
+}
+#reorderh
+{
+    position: absolute;
+    top:25px;
+    
+}
+#arrangebutton{
+    position: absolute;
+    width:20%;
+    margin-left:6%;
+    top:80%;
+}
+#addButt{
+  
+    position: absolute;
+    width:30%;
+    margin-left:6%;
+    top:630%;
+}
