@@ -129,83 +129,8 @@ class Arrange extends React.Component
             
                     </>)
     }
-// render(){
-    
-//     const { items } = this.state.arrangeitems
-//     console.log("arannnnnnndee")
-//     console.log(items);
-   
-//     if (items) {
-              
-//                 const listItems=items.map(item => {
-//                     return <div className="list" key={item.key}>
-//                         <p id="arrangeL">
-//                         <i class="fas fa-arrows-alt"></i> {item.text}
-                       
-//                         </p>
-                        
-//                     </div>
-//                 })
-//                 return(
-//                     <>
-//                     <h1 id="reorderh">Reorder the List </h1> 
-//                      <div>{listItems}</div>
-//                     <Link to={{
-//                         pathname: "/PlayVideo",
-//                         items: items
 
-//                      }}
-//                     >
-//                     <Button id="arrangebutton" renderAs="button">
-//                     <span>Next</span>
-//                     </Button>  </Link>
-                      
-
-//                     </>
-                   
-//                 )
-        
-//             }
-           
-//     return(
-//         <>
-                      
-
-//         </>
-
-//     )
-// }
 }
-// function Arrange(props) {
-//     const {items}=props.location.state;
-//    // console.log(data);
-//     // const items=props.itemsarr;
-//     if (items) {
-//        // console.log(items);
-//         const listItems=items.map(item => {
-//             return <div className="list" key={item.key}>
-//                 <p>{item.text}
-//                 </p>
-                
-//             </div>
-//         })
-//         return(
-//             <div>{listItems}</div>
-//         )
-
-//     }
-//     return(
-//         <div>
-//             <h1>rearrage</h1>
-//             <Link to="/PlayVideo">
-//            <Button renderAs="button">
-//            <span>next</span>
-//            </Button>  </Link>
-//         </div>
-//     )
-   
-// }
-
 
 
 export default Arrange

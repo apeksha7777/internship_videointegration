@@ -5,7 +5,6 @@ import AddLink from '../components/AddLink';
 import './Home.css';
 import{BrowserRouter as Router,Switch,Link,Route} from 'react-router-dom'
 
-//import AddLink from './AddLink';
 function Home() {
     return (
         <div>
@@ -17,15 +16,6 @@ function Home() {
            <Button className="butt" renderAs="button">
            <span>start</span>
            </Button>  </Link>
-           {/* <Router>
-           <Link to="/second">start</Link>
-           <Switch>
-           <Route path="/second">
-             
-           </Route>
-           </Switch>
-      
-           </Router> */}
         </div>
     )
 }

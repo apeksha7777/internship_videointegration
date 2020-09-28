@@ -20,22 +20,7 @@ function App() {
    <Route exact path='/arrange' component={Arrange}/>
    <Route exact path='/playvideo' component={PlayVideo}/>
                 
-                
-   
-   {/* <Router>
-           <Link to="/second">Home</Link>
-           <Switch>
-           <Route path="/second">
-              <Home />
-           </Route>
-           </Switch>
-      
-    </Router> */}
-   
-
-    
-   
-   
+              
     </>
     
    

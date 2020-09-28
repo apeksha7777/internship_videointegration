@@ -16,17 +16,14 @@ class PlayVideo extends React.Component
    play(key)
     {
         const { items } = this.state.videoitems;
-       // console.log(items);
         console.log("startedddd");
-        //console.log(key);
-        if (items) {
+         if (items) {
               
             const listItems=items.map(item => {
                 if(item.key!==key)
                 {
                     console.log(item.key)
-                   // var v =  document.getElementById( item.key);
-                   // v.playing=false;
+                   
                 }
                   
                 return <div className="videos" key={item.key}>
@@ -80,7 +77,5 @@ class PlayVideo extends React.Component
     
     
 }
-
-
 
 export default PlayVideo

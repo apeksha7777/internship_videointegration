@@ -10,7 +10,7 @@ h1{
     position: absolute;
     top: 30px;
     left: 30%;
-    margin-left: 190%;
+    
     color:rgb(241, 215, 215);
     font-family: "Lucida Console", Courier, monospace;
 }
@@ -26,15 +26,6 @@ h1{
     width: 10%;
     position: absolute;
     margin-left: 450px;
-    top: 360px;
+    top: 440px;
     color:rgb(233, 233, 106);
 }
-/* div {
-  border: 1px solid rgba(255,255,255,.1);
-  width: 10em;
-  height: 10em;
-  transform: rotate(45deg);
-  margin: 2em;
-  float: left;
-  background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%,rgba(0,0,0,0.05) 100%); 
-} */

@@ -11,19 +11,7 @@ function Navbar() {
            <span>Home</span>
            </Button></Link>
         </ul>
-         {/* <ul>
-         <Link to="/AddLink">Add Links   </Link>
-         </ul>
-         <ul>
-         <Link to="/Arrange">Arrange links   </Link>
-         </ul>
-         <ul>
-         <Link to="/PlayVideo">Play videos   </Link> 
-         </ul> */}
-
-          
-           
-           
+            
         </>
     )
 }
